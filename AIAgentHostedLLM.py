@@ -29,5 +29,4 @@ agent = initialize_agent(
 )
 
 # Test query
-result = agent.run("PROMPT")
-print("\nAgent Result:", result)
+print("\nAgent Result:", agent.run("how do we solve a production bug for spring boot application?"))

@@ -20,5 +20,4 @@ agent = initialize_agent(
     verbose=True,
 )
 
-response = agent.run("PROMPT")
-print(response)
+print(agent.run("PROMPT"))
